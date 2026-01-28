@@ -108,8 +108,8 @@ Uninter — *Cursando (2025 - Atual)*
 ## 📫 Contato
 
 <p align="left">
-  <a href="mailto:vssfullstack@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vssfullstack@gmail.com-red?style=for-the-badge&logo=gmail">
+  <a href="mailto:vsalescode@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vsalescode@gmail.com-red?style=for-the-badge&logo=gmail">
   </a>
   <a href="https://linkedin.com/in/vsalescode">
     <img src="https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Victor-blue?style=for-the-badge&logo=linkedin">
