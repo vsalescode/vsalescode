@@ -2,7 +2,7 @@
 
 <p align="center">
   <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Backend+Java;Spring+Boot+%7C+Microservi%C3%A7os;APIs+REST+com+JWT;Em+busca+de+est%C3%A1gio+Backend"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Desenvolvedor+Backend+Java;Spring+Boot+%7C+Microservi%C3%A7os+%7C+BFF;APIs+REST+Seguras+com+JWT;Em+busca+de+est%C3%A1gio+Backend"
     alt="Typing SVG"
   />
 </p>
@@ -15,10 +15,11 @@
 
 ## 🚀 Sobre mim
 
-Sou desenvolvedor backend com foco em **Java e Spring Boot**, atualmente construindo sistemas com **arquitetura de microserviços**, **BFF** e **APIs REST seguras**.
+Sou **desenvolvedor backend** com foco em **Java e Spring Boot**, atuando na construção de sistemas com **arquitetura de microserviços**, **BFF (Backend for Frontend)** e **APIs REST seguras com JWT**.
 
-Tenho experiência prática em projetos pessoais e freelances, sempre buscando **boas práticas**, **código limpo**, **arquitetura limpa** e **aprendizado contínuo**.  
-Atualmente busco uma **oportunidade de estágio em desenvolvimento backend**.
+Tenho experiência prática em **projetos pessoais estruturados como sistemas reais**, aplicando **boas práticas**, **separação de responsabilidades**, **arquitetura limpa** e **comunicação entre serviços**.
+
+Atualmente busco uma **oportunidade de estágio em desenvolvimento backend**, onde eu possa evoluir tecnicamente e gerar impacto real.
 
 ---
 
@@ -35,6 +36,7 @@ Atualmente busco uma **oportunidade de estágio em desenvolvimento backend**.
 
 ### 🧩 Arquitetura & Integrações
 ![Microservices](https://img.shields.io/badge/Microservices-Architecture-informational?style=for-the-badge)
+![BFF](https://img.shields.io/badge/BFF-Backend%20for%20Frontend-blueviolet?style=for-the-badge)
 ![OpenFeign](https://img.shields.io/badge/OpenFeign-Spring%20Cloud-blue?style=for-the-badge)
 
 ### ⚙️ Dev & DevOps
@@ -46,18 +48,40 @@ Atualmente busco uma **oportunidade de estágio em desenvolvimento backend**.
 
 ## 📌 Projeto em Destaque
 
-### 📅 Sistema de Agendamento em Microserviços (Em andamento)
+### 📅 Sistema de Agendamento de Tarefas — Arquitetura de Microserviços
 
-Backend desenvolvido com **Java + Spring Boot**, seguindo arquitetura de **microserviços**.
+Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **ecossistema de microserviços**, com **segurança, integração e escalabilidade**.
 
-- ✅ Microserviço de Usuário completo
-- 🔐 Autenticação JWT
-- 🗄️ PostgreSQL e MongoDB
-- 🔗 Comunicação entre serviços via **OpenFeign**
-- 🚧 Microserviço de Agendador em desenvolvimento
+#### 🧱 Arquitetura
+- 🧑‍💻 **Usuario Service** (✅ Completo)
+  - Cadastro e autenticação
+  - Emissão de JWT
+  - PostgreSQL
 
-🔗 Repositório:  
-👉 https://github.com/vsalescode/usuario
+- ⏰ **Agendador Service** (✅ Completo)
+  - CRUD de tarefas
+  - Agendamento por data/hora
+  - Controle de status de notificação
+  - MongoDB
+
+- 📧 **Notificacao Service** (🔜)
+  - Envio de emails
+  - Consumo de eventos do Agendador
+
+- 🧠 **BFF (Backend for Frontend)** (🔜)
+  - Orquestração de chamadas
+  - Centralização de segurança
+  - API simplificada para o frontend
+
+#### 🔐 Destaques Técnicos
+- Autenticação via **JWT**
+- Comunicação entre serviços com **Spring Cloud OpenFeign**
+- Separação clara de responsabilidades
+- Projeto estruturado para evolução (Docker, testes, CI/CD)
+
+🔗 Repositórios:
+- 👉 https://github.com/vsalescode/usuario  
+- 👉 https://github.com/vsalescode/agendador-tarefas  
 
 ---
 
@@ -97,4 +121,4 @@ Uninter — *Cursando (2025 - Atual)*
 
 ---
 
-⭐ *Sempre aberto a aprender, evoluir e colaborar em novos projetos!*
+⭐ *Sempre aberto a aprender, evoluir e colaborar em projetos backend desafiadores.*
