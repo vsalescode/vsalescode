@@ -82,7 +82,8 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
 
 🔗 Repositórios:
 - 👉 https://github.com/vsalescode/usuario  
-- 👉 https://github.com/vsalescode/agendador-tarefas  
+- 👉 https://github.com/vsalescode/agendador-tarefas
+- 👉 https://github.com/vsalescode/notificacao
 
 ---
 
