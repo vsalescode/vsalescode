@@ -64,7 +64,7 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
   - Controle de status de notificação
   - MongoDB
 
-- 📧 **Notificacao Service** (🔜)
+- 📧 **Notificacao Service** (✅ Completo)
   - Envio de emails
   - Consumo de eventos do Agendador
 
@@ -76,6 +76,7 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
 #### 🔐 Destaques Técnicos
 - Autenticação via **JWT**
 - Comunicação entre serviços com **Spring Cloud OpenFeign**
+- Envio de emails com Java Mail Sender
 - Separação clara de responsabilidades
 - Projeto estruturado para evolução (Docker, testes, CI/CD)
 
