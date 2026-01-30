@@ -90,12 +90,23 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vsalescode&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsalescode&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=vsalescode&show_icons=true&theme=tokyonight&hide_border=true"
+    height="165"
+    alt="GitHub stats"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsalescode&layout=compact&theme=tokyonight&hide_border=true"
+    height="165"
+    alt="Top languages"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vsalescode&theme=tokyonight&hide_border=true"/>
+  <img
+    src="https://streak-stats.demolab.com/?user=vsalescode&theme=tokyonight&hide_border=true"
+    alt="GitHub streak"
+  />
 </p>
 
 ---
