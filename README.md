@@ -87,8 +87,6 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
 
 ---
 
-## 📊 Estatísticas do GitHub
-
 ## 📊 Minhas Estatísticas
 
 <p align="center">
