@@ -90,10 +90,12 @@ Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **e
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repos-?-181717?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Followers-?-181717?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/badge/Stars-?-181717?style=for-the-badge&logo=github" />
+  <img
+    src="https://ghchart.rshah.org/409ba5/vsalescode"
+    alt="GitHub Contributions Chart"
+  />
 </p>
+
 
 ---
 
