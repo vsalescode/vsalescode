@@ -1,5 +1,5 @@
-// ☕ Java 17 is my weapon of choice, powered by Spring Boot 
-// 🚀 Pseudocode 
+// Java 17 is my weapon of choice, powered by Spring Boot
+// Pseudocode representation of my professional profile
 
 public class JoaoVictorSales {
 
@@ -18,23 +18,24 @@ public class JoaoVictorSales {
             "backend-passion",
             "clean-code",
             "problem-solving",
-            "coffee-driven-development"
+            "continuous-learning"
         ));
 
         Skills skills = Skills.builder()
 
-            // Linguagens de programação
+            // Programming languages
             .languages(List.of(
                 "Java 17",
                 "JavaScript"
             ))
 
-            // Marcação e estilo (não são linguagens de programação)
+            // Markup and style
             .markupAndStyle(List.of(
                 "HTML5",
                 "CSS3"
             ))
 
+            // Frameworks and libraries
             .frameworks(List.of(
                 "Spring Boot",
                 "Spring Security",
@@ -42,12 +43,14 @@ public class JoaoVictorSales {
                 "Hibernate/JPA"
             ))
 
+            // Databases
             .databases(List.of(
                 "PostgreSQL",
                 "MongoDB",
                 "MySQL"
             ))
 
+            // Architectural knowledge
             .architecture(List.of(
                 "Microservices",
                 "BFF Pattern",
@@ -55,63 +58,63 @@ public class JoaoVictorSales {
                 "REST APIs"
             ))
 
+            // Tools I already use
             .tools(List.of(
                 "Git & GitHub",
                 "Maven",
-                "Docker",
-                "GitHub Actions",
                 "Postman",
                 "JWT"
             ))
 
+            // Engineering practices
             .practices(List.of(
                 "SOLID",
                 "Clean Code",
-                "Global Exception Handling",
-                "Code Review"
+                "Global Exception Handling"
             ))
 
+            // Currently studying
             .learning(List.of(
+                "Docker",
                 "JUnit & Mockito",
-                "AWS",
-                "RabbitMQ & Kafka",
-                "Kubernetes"
+                
             ))
             .build();
 
-        BackendDeveloper developer = new BackendDeveloper(joao, skills);
+        BackendDeveloper developer =
+            new BackendDeveloper(joao, skills);
 
         /*
-         * 🎯 Projeto Destaque – Agendador de Tarefas (Microserviços)
+         * Featured Project - Task Scheduler Microservices
          *
-         * • User Service
-         *   - PostgreSQL
-         *   - Autenticação JWT com Spring Security
+         * User Service
+         * - PostgreSQL
+         * - JWT Authentication with Spring Security
          *
-         * • Task Service
-         *   - MongoDB
-         *   - CRUD completo
+         * Task Service
+         * - MongoDB
+         * - Full CRUD
          *
-         * • Integração
-         *   - Spring Cloud OpenFeign
-         *   - Padrão BFF
+         * Integration
+         * - Spring Cloud OpenFeign
+         * - BFF communication pattern
          *
-         * • Qualidade
-         *   - Arquitetura em camadas
-         *   - Tratamento global de exceções
-         *   - Docker + CI com GitHub Actions
+         * Quality
+         * - Layered architecture
+         * - Global exception handling
          *
-         * 🔗 github.com/vsalescode/usuario
+         * github.com/vsalescode/usuario
          */
 
         try {
-            while (developer.hasEnergy() || developer.hasCoffee()) {
+
+            while (developer.hasEnergy()) {
 
                 developer.deliver(List.of(
-                    "APIs REST seguras com JWT",
-                    "Comunicação entre microsserviços via OpenFeign",
-                    "Persistência PostgreSQL + MongoDB",
-                    "Aplicações dockerizadas"
+                    "Secure REST APIs with JWT",
+                    "Microservices communication via OpenFeign",
+                    "PostgreSQL and MongoDB persistence",
+                    "Organized layered architecture"
                 ));
 
                 developer.code();
@@ -126,14 +129,16 @@ public class JoaoVictorSales {
             }
 
         } catch (BurnoutException e) {
-            developer.takeCoffeeBreak();
+
+            developer.takeBreak();
             developer.study("System Design");
             developer.comeBackStronger();
+
         }
     }
 }
 
-// 🎓 Educação
+// Education
 @Entity
 class Education {
 
@@ -142,28 +147,31 @@ class Education {
 
     String institution = "UNINTER - Fortaleza, CE";
 
-    String status = "Em andamento (07/2025 → )";
+    String status = "Em andamento (07/2025 -> )";
+
 }
 
-// 🌍 Idiomas
+// Languages
 enum Languages {
-    PORTUGUESE("Nativo 🇧🇷"),
-    ENGLISH("Intermediário 🇺🇸"),
-    SPANISH("Básico 🇪🇸");
+
+    PORTUGUESE("Nativo"),
+    ENGLISH("Intermediário"),
+    SPANISH("Básico");
 
     private final String level;
 
     Languages(String level) {
         this.level = level;
     }
+
 }
 
 /*
- * 📫 Contato
+ * Contact
  * Email: vsalescode@gmail.com
  * LinkedIn: linkedin.com/in/vsalescode
  * GitHub: github.com/vsalescode
  *
- * 🚀 Foco: Backend com Java & Spring
- * 💡 Buscando estágio para evoluir e gerar impacto real
+ * Focus: Backend with Java & Spring
+ * Looking for internship opportunity
  */
