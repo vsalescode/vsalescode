@@ -1,5 +1,5 @@
 ```java
-// Java 17 is my weapon of choice
+// Java 17 is my weapon of choice, and runs on coffee
 
 Developer joao = new Developer(
     "João Victor Sales",
@@ -7,49 +7,17 @@ Developer joao = new Developer(
     "github.com/vsalescode"
 );
 
-joao.installMindset(List.of(
-    "backend-passion",
-    "clean-code",
+joao.install(new LifePackageManager(List.of(
+    "curiosity",
     "coffee-dependency",
-    "problem-solving"
-));
+    "debugging-skills"
+)));
 
 Skills mySkills = new Skills(
-
-    List.of(
-        "Java 17",
-        "JavaScript",
-        "HTML5",
-        "CSS3"
-    ),
-
-    List.of(
-        "Spring Boot",
-        "Spring Security",
-        "OpenFeign",
-        "Hibernate/JPA",
-        "Swagger"
-    ),
-
-    List.of(
-        "PostgreSQL",
-        "MongoDB",
-        "MySQL"
-    ),
-
-    List.of(
-        "Git",
-        "Maven",
-        "Postman",
-        "JWT",
-        "Docker"
-    ),
-
-    List.of(
-        "Microservices",
-        "BFF",
-        "REST APIs"
-    )
+    List.of("Java 17", "JavaScript", "HTML/CSS"),
+    List.of("Spring Boot", "Spring Security", "OpenFeign", "Swagger"),
+    List.of("PostgreSQL", "MySQL", "MongoDB"),
+    List.of("Git", "Maven", "Postman", "Docker")
 );
 
 BackendDeveloper developer =
@@ -61,16 +29,16 @@ try {
            developer.hasCoffee()) {
 
         developer.code();
-        developer.documentWithSwagger();
-        developer.containerizeWithDocker();
 
     }
 
 } catch (BurnoutException e) {
 
-    developer.takeBreak();
+    developer.rest();
+    developer.hydrate();
     developer.comeBackStronger();
 
 }
+
 
 ```
