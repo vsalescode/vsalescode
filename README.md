@@ -1,122 +1,169 @@
-<h1 align="center">👋 Olá, eu sou João Victor</h1>
+// ☕ Java 17 is my weapon of choice, powered by Spring Boot 
+// 🚀 Pseudocode 
 
-<p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Desenvolvedor+Backend+Java;Spring+Boot+%7C+Microservi%C3%A7os+%7C+BFF;APIs+REST+Seguras+com+JWT;Em+busca+de+est%C3%A1gio+Backend"
-    alt="Typing SVG"
-  />
-</p>
+public class JoaoVictorSales {
 
-<p align="center">
-  📍 Pacatuba - CE, Brasil
-</p>
+    public static void main(String[] args) {
 
----
+        Developer joao = Developer.builder()
+            .name("João Victor Sales")
+            .email("vsalescode@gmail.com")
+            .location("Pacatuba, CE - Brasil")
+            .github("github.com/vsalescode")
+            .linkedin("linkedin.com/in/vsalescode")
+            .goal("Backend Java Internship")
+            .build();
 
-## 🚀 Sobre mim
+        joao.installMindset(List.of(
+            "backend-passion",
+            "clean-code",
+            "problem-solving",
+            "coffee-driven-development"
+        ));
 
-Sou **desenvolvedor backend** com foco em **Java e Spring Boot**, atuando na construção de sistemas com **arquitetura de microserviços**, **BFF (Backend for Frontend)** e **APIs REST seguras com JWT**.
+        Skills skills = Skills.builder()
 
-Tenho experiência prática em **projetos pessoais estruturados como sistemas reais**, aplicando **boas práticas**, **separação de responsabilidades**, **arquitetura limpa** e **comunicação entre serviços**.
+            // Linguagens de programação
+            .languages(List.of(
+                "Java 17",
+                "JavaScript"
+            ))
 
-Atualmente busco uma **oportunidade de estágio em desenvolvimento backend**, onde eu possa evoluir tecnicamente e gerar impacto real.
+            // Marcação e estilo (não são linguagens de programação)
+            .markupAndStyle(List.of(
+                "HTML5",
+                "CSS3"
+            ))
 
----
+            .frameworks(List.of(
+                "Spring Boot",
+                "Spring Security",
+                "Spring Cloud OpenFeign",
+                "Hibernate/JPA"
+            ))
 
-## 🛠️ Tecnologias & Ferramentas
+            .databases(List.of(
+                "PostgreSQL",
+                "MongoDB",
+                "MySQL"
+            ))
 
-### 🧠 Backend
-![Java](https://img.shields.io/badge/Java-17-red?style=for-the-badge&logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.x-brightgreen?style=for-the-badge&logo=springboot)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-JWT-green?style=for-the-badge)
+            .architecture(List.of(
+                "Microservices",
+                "BFF Pattern",
+                "Layered Architecture",
+                "REST APIs"
+            ))
 
-### 🗄️ Bancos de Dados
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-darkgreen?style=for-the-badge&logo=mongodb)
+            .tools(List.of(
+                "Git & GitHub",
+                "Maven",
+                "Docker",
+                "GitHub Actions",
+                "Postman",
+                "JWT"
+            ))
 
-### 🧩 Arquitetura & Integrações
-![Microservices](https://img.shields.io/badge/Microservices-Architecture-informational?style=for-the-badge)
-![BFF](https://img.shields.io/badge/BFF-Backend%20for%20Frontend-blueviolet?style=for-the-badge)
-![OpenFeign](https://img.shields.io/badge/OpenFeign-Spring%20Cloud-blue?style=for-the-badge)
+            .practices(List.of(
+                "SOLID",
+                "Clean Code",
+                "Global Exception Handling",
+                "Code Review"
+            ))
 
-### ⚙️ Dev & DevOps
-![Git](https://img.shields.io/badge/Git-Versionamento-orange?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Repositories-black?style=for-the-badge&logo=github)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI/CD-blue?style=for-the-badge)
+            .learning(List.of(
+                "JUnit & Mockito",
+                "AWS",
+                "RabbitMQ & Kafka",
+                "Kubernetes"
+            ))
+            .build();
 
----
+        BackendDeveloper developer = new BackendDeveloper(joao, skills);
 
-## 📌 Projeto em Destaque
+        /*
+         * 🎯 Projeto Destaque – Agendador de Tarefas (Microserviços)
+         *
+         * • User Service
+         *   - PostgreSQL
+         *   - Autenticação JWT com Spring Security
+         *
+         * • Task Service
+         *   - MongoDB
+         *   - CRUD completo
+         *
+         * • Integração
+         *   - Spring Cloud OpenFeign
+         *   - Padrão BFF
+         *
+         * • Qualidade
+         *   - Arquitetura em camadas
+         *   - Tratamento global de exceções
+         *   - Docker + CI com GitHub Actions
+         *
+         * 🔗 github.com/vsalescode/usuario
+         */
 
-### 📅 Sistema de Agendamento de Tarefas — Arquitetura de Microserviços
+        try {
+            while (developer.hasEnergy() || developer.hasCoffee()) {
 
-Sistema backend desenvolvido com **Java + Spring Boot**, estruturado como um **ecossistema de microserviços**, com **segurança, integração e escalabilidade**.
+                developer.deliver(List.of(
+                    "APIs REST seguras com JWT",
+                    "Comunicação entre microsserviços via OpenFeign",
+                    "Persistência PostgreSQL + MongoDB",
+                    "Aplicações dockerizadas"
+                ));
 
-#### 🧱 Arquitetura
-- 🧑‍💻 **Usuario Service** (✅ Completo)
-  - Cadastro e autenticação
-  - Emissão de JWT
-  - PostgreSQL
+                developer.code();
+                developer.refactor();
+                developer.commitWithMeaning();
 
-- ⏰ **Agendador Service** (✅ Completo)
-  - CRUD de tarefas
-  - Agendamento por data/hora
-  - Controle de status de notificação
-  - MongoDB
+                if (developer.foundBug()) {
+                    developer.debug()
+                             .fix()
+                             .test();
+                }
+            }
 
-- 📧 **Notificacao Service** (✅ Completo)
-  - Envio de emails
-  - Consumo de eventos do Agendador
+        } catch (BurnoutException e) {
+            developer.takeCoffeeBreak();
+            developer.study("System Design");
+            developer.comeBackStronger();
+        }
+    }
+}
 
-- 🧠 **BFF (Backend for Frontend)** (🔜)
-  - Orquestração de chamadas
-  - Centralização de segurança
-  - API simplificada para o frontend
+// 🎓 Educação
+@Entity
+class Education {
 
-#### 🔐 Destaques Técnicos
-- Autenticação via **JWT**
-- Comunicação entre serviços com **Spring Cloud OpenFeign**
-- Envio de emails com Java Mail Sender
-- Separação clara de responsabilidades
-- Projeto estruturado para evolução (Docker, testes, CI/CD)
+    @Id
+    String degree = "Engenharia de Software";
 
-🔗 Repositórios:
-- 👉 https://github.com/vsalescode/usuario  
-- 👉 https://github.com/vsalescode/agendador-tarefas
-- 👉 https://github.com/vsalescode/notificacao
+    String institution = "UNINTER - Fortaleza, CE";
 
----
+    String status = "Em andamento (07/2025 → )";
+}
 
-## 📊 Minhas Estatísticas
+// 🌍 Idiomas
+enum Languages {
+    PORTUGUESE("Nativo 🇧🇷"),
+    ENGLISH("Intermediário 🇺🇸"),
+    SPANISH("Básico 🇪🇸");
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vsalescode&theme=tokyo-night&area=true&hide_border=true" width="100%" />
-</p>
+    private final String level;
 
+    Languages(String level) {
+        this.level = level;
+    }
+}
 
----
-
-## 🎓 Formação
-
-🎓 **Bacharelado em Engenharia de Software**  
-Uninter — *Cursando (2025 - Atual)*
-
----
-
-## 📫 Contato
-
-<p align="left">
-  <a href="mailto:vsalescode@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vsalescode@gmail.com-red?style=for-the-badge&logo=gmail">
-  </a>
-  <a href="https://linkedin.com/in/vsalescode">
-    <img src="https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Victor-blue?style=for-the-badge&logo=linkedin">
-  </a>
-  <a href="https://github.com/vsalescode">
-    <img src="https://img.shields.io/badge/GitHub-vsalescode-black?style=for-the-badge&logo=github">
-  </a>
-</p>
-
----
-
-⭐ *Sempre aberto a aprender, evoluir e colaborar em projetos backend desafiadores.*
+/*
+ * 📫 Contato
+ * Email: vsalescode@gmail.com
+ * LinkedIn: linkedin.com/in/vsalescode
+ * GitHub: github.com/vsalescode
+ *
+ * 🚀 Foco: Backend com Java & Spring
+ * 💡 Buscando estágio para evoluir e gerar impacto real
+ */
