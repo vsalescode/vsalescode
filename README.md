@@ -4,6 +4,7 @@
 Developer joao = new Developer(
     "João Victor Sales",
     "vsalescode@gmail.com",
+    "linkedin.com/in/vsalescode",
     "github.com/vsalescode"
 );
 
