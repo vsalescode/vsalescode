@@ -16,7 +16,7 @@ joao.install(new LifePackageManager(List.of(
 )));
 
 Skills mySkills = new Skills(
-    List.of("Java 17", "JavaScript", "HTML/CSS", "Python"),
+    List.of("Java 17+", "JavaScript", "HTML/CSS", "Python"),
     List.of("Spring Boot", "Spring Security", "OpenFeign", "Swagger"),
     List.of("PostgreSQL", "MySQL", "MongoDB"),
     List.of("Git", "Maven", "Postman", "Docker")
