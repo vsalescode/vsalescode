@@ -101,11 +101,11 @@ Estudante de Engenharia de Software e Estagiário em Desenvolvimento de Software
 | **[Microsserviços &amp; Agendador de Tarefas](https://github.com/vsalescode/bff-agendador-tarefas)** | Arquitetura em microsserviços com persistência híbrida e comunicação entre serviços via OpenFeign. | Java 17 · Spring Boot · PostgreSQL · MongoDB · Docker |
 | **[API de Gestão Hoteleira](https://github.com/vsalescode/hotel-api)** | API REST para reservas, hóspedes e quartos, com validações complexas, regras de negócio e tratamento de exceções. | Java · Spring Data JPA · MySQL · Swagger |
 
-## 📊 Estatísticas do GitHub
+## 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vsalescode&show_icons=true&hide_border=true&count_private=true&locale=pt-br&cache_seconds=86400" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vsalescode&layout=compact&hide_border=true&langs_count=8&locale=pt-br&cache_seconds=86400" alt="Linguagens mais usadas">
+  <img src="https://komarev.com/ghpvc/?username=vsalescode&label=Visitas%20no%20perfil&color=6DB33F&style=for-the-badge" alt="Visitas no perfil">
+  <img src="https://img.shields.io/github/followers/vsalescode?label=Seguidores&style=for-the-badge&logo=github&logoColor=white&color=181717" alt="Seguidores">
 </p>
 
 ---
