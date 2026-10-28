@@ -2,316 +2,115 @@
 
 # João Victor Sales
 
-### Software Developer · Backend · Real-Time Systems
+**Backend Developer · Java & Spring Boot · Node.js · Real-time systems**
 
-<p>
-  Java · Spring Boot · TypeScript · Node.js · PostgreSQL · WebRTC
-</p>
+Brazil · Open to backend roles (junior / internship), remote or hybrid
 
-<a href="https://linkedin.com/in/vsalescode">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://portfolio-vsalescode.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
-<a href="mailto:vsalescode@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<a href="https://linkedin.com/in/vsalescode"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://portfolio-vsalescode.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="mailto:vsalescode@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
 
----
+## About
 
-## 👨‍💻 About me
+I build backend systems: REST APIs, authentication, data pipelines and real-time features. My main stack is Java with Spring Boot, and I also work with TypeScript and Node.js.
 
-Software Developer focused on **backend development, APIs and real-time systems**.
+During my internship I built a data pipeline that ingests, normalizes and validates about 2 million records into PostgreSQL, and tuned the queries behind it with indexes and caching. Outside work, I keep shipping complete projects end to end, from database design to tests and documentation.
 
-I have experience building and maintaining backend applications, REST APIs, authentication flows, automation pipelines, real-time communication features and data-processing systems.
+Software Engineering student at UNINTER.
 
-Some of the technologies I work with include:
-
-`Java` · `Spring Boot` · `TypeScript` · `Node.js` · `Fastify` · `PostgreSQL` · `WebRTC` · `Socket.IO`
-
-I have also worked with large-scale data ingestion, including pipelines responsible for processing approximately **2 million records into PostgreSQL**.
-
-```java
-public final class JoaoVictor {
-
-    private final String role = "Software Developer";
-    private final String focus = "Backend & Real-Time Systems";
-
-    private final String[] mainStack = {
-        "Java",
-        "Spring Boot",
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL"
-    };
-
-    public void build() {
-        while (coffeeAvailable()) {
-            design();
-            code();
-            test();
-            refactor();
-        }
-    }
-
-    private boolean coffeeAvailable() {
-        return true;
-    }
-}
-```
-
----
-
-## ⚡ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,spring,ts,nodejs,react,electron,postgres,mysql,mongodb,docker,git,github,maven,postman&theme=dark" />
-
-<br/><br/>
-
-### Backend
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-005571?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-
-### Real-Time & Integrations
-
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-FF4F64?style=flat-square)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-
-### Databases
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-
-### Testing & DevOps
-
-![JUnit](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Projects
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌊 [Nilo](https://nilovoice.vercel.app)
+### [Mini ERP](https://github.com/vsalescode/mini-erp)
+Stock and sales API, built module by module (in progress).
 
-Desktop communication platform focused on real-time interactions.
+`Java 21` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
 
-`TypeScript` `React` `Electron`  
-`Fastify` `Socket.IO` `WebRTC`  
-`PostgreSQL` `Prisma`
-
-- Voice communication
-- Screen sharing
-- Communities and channels
-- User presence
-- JWT authentication
-- Windows distribution
+Modular hexagonal architecture documented in an ADR, versioned migrations with Flyway and integration tests running against a real PostgreSQL through Testcontainers.
 
 </td>
-
 <td width="50%" valign="top">
 
-### ☕ [Microservices Architecture](https://github.com/vsalescode/bff-agendador-tarefas)
+### [AppyFlow](https://github.com/vsalescode/appyflow)
+Self-hosted assistant that finds job openings, scores how well they match your profile and generates tailored résumés in LaTeX/PDF.
 
-Backend architecture built using Java and Spring Boot.
+`TypeScript` `Next.js` `Prisma` `PostgreSQL` `Zod` `Vitest` `Docker`
 
-`Java 17` `Spring Boot`  
-`PostgreSQL` `MongoDB`  
-`OpenFeign` `Docker`
+Résumé parsing with LLM structured output, where every extracted fact keeps a quote from the original as evidence. Argon2 auth and a search worker with pluggable providers.
 
-- REST APIs
-- Multiple services
-- Service communication
-- Hybrid persistence
-- OpenAPI documentation
-- Containerized environment
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Nilo](https://nilovoice.vercel.app)
+Desktop app for voice chat and communities, with screen sharing.
+
+`TypeScript` `React` `Electron` `Fastify` `Socket.IO` `WebRTC` `PostgreSQL` `Prisma`
+
+Real-time voice and screen sharing over WebRTC, presence and channels over Socket.IO, JWT auth and a Windows installer.
+
+</td>
+<td width="50%" valign="top">
+
+### [API Vendas BI](https://github.com/vsalescode/api-vendas-bi)
+Sales API with a monthly revenue dashboard.
+
+`Java 21` `Spring Boot` `PostgreSQL` `MapStruct` `Bean Validation`
+
+Paginated and filtered endpoints, error handling and a dashboard that reads from a PostgreSQL view, so the aggregation lives in the database.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [netblame](https://github.com/vsalescode/netblame)
+Finds where your connection is failing: your PC, the router, the ISP or the route to the server.
+
+`Python` `Windows` `Networking`
+
+Probes gateway, DNS, TCP and each hop of the route in parallel, then blames the failing segment by elimination. Generates a single bilingual HTML report, with no admin rights and no external dependencies.
+
+</td>
+<td width="50%" valign="top">
+
+### [Iris](https://github.com/vsalescode/iris)
+Voice assistant for Windows that handles files and Gmail and remembers past conversations.
+
+`Python` `FastAPI` `WebSocket` `Gemini Live` `SQLite` `Three.js`
+
+Real-time voice over WebSocket, function calling behind a permission system with confirmation for irreversible actions, long-term memory in SQLite and a WebGL interface.
 
 </td>
 </tr>
 </table>
 
----
+Also worth a look: [microservices with Spring Boot and OpenFeign](https://github.com/vsalescode/bff-agendador-tarefas) (BFF + user, task and notification services, PostgreSQL and MongoDB).
 
-## 🧩 What I Build
+## Experience
 
-```text
-Client
-  │
-  ▼
-REST API
-  │
-  ├── Authentication / Authorization
-  │
-  ├── Business Rules
-  │
-  ├── Database
-  │     ├── PostgreSQL
-  │     ├── MySQL
-  │     └── MongoDB
-  │
-  ├── Real-Time Layer
-  │     ├── Socket.IO
-  │     └── WebRTC
-  │
-  └── External Integrations
-        ├── Webhooks
-        ├── APIs
-        └── n8n
-```
+**Hiwis** · Software Development & AI Intern · Mar 2026 – Aug 2026
+- Built REST APIs in Node.js and Java with authentication, JWT access control, filters and pagination.
+- Built a data pipeline (ingestion, transformation, normalization, validation) that loads ~2 million records into PostgreSQL, and optimized its SQL with indexes and in-memory caching.
+- Automated business flows with n8n, webhooks and external APIs.
+- Built React + TypeScript screens and wrote automated tests with Jest.
 
----
+**Freelance developer** · Jun 2020 – Aug 2025
+- Websites, landing pages, Discord bots, Lua scripts and API integrations for clients, plus bug fixing, refactoring and performance work.
 
-## 💼 Experience
+## Stack
 
-### Hiwis
+<img src="https://skillicons.dev/icons?i=java,spring,ts,nodejs,react,nextjs,python,postgres,mysql,mongodb,prisma,docker,git,postman&theme=dark" />
 
-**Software Development & AI Intern**  
-`Mar/2026 → Aug/2026`
+**Backend:** Java, Spring Boot, Node.js, Fastify, Next.js, REST, JWT, OpenFeign
+**Data:** PostgreSQL, MySQL, MongoDB, Prisma, JPA, Flyway
+**Real-time:** WebSocket, Socket.IO, WebRTC
+**Testing & tooling:** JUnit 5, Mockito, Testcontainers, Jest, Vitest, Docker, GitHub Actions, n8n
 
-Worked on backend applications using **Node.js and Java**, implementing:
-
-- REST APIs
-- Business rules
-- Authentication and authorization
-- Filters and pagination
-- System integrations
-- JWT-based access control
-- React and TypeScript interfaces
-- Automated tests with Jest
-
-I also built automation flows using:
-
-`n8n` · `REST APIs` · `Webhooks` · `External Services`
-
-One of the main projects involved a complete data pipeline:
-
-```text
-Ingestion
-   ↓
-Transformation
-   ↓
-Normalization
-   ↓
-Validation
-   ↓
-PostgreSQL
-```
-
-Processing approximately:
-
-### `~2,000,000 records`
-
-I also worked on SQL optimization using indexing, in-memory caching and improved data-access strategies.
-
----
-
-### Independent Software Developer
-
-`Jun/2020 → Aug/2025`
-
-Worked on independent projects involving:
-
-- Responsive web interfaces
-- Landing pages
-- Custom tools
-- Lua scripts
-- Discord bots
-- Automation systems
-- API integrations
-- Bug fixes
-- Refactoring
-- Performance improvements
-- Technical support
-
----
-
-## 🧠 Current Focus
-
-```text
-Java & Spring Boot
-Software Architecture
-Automated Testing
-Distributed Systems
-Real-Time Applications
-PostgreSQL Performance
-Docker & CI/CD
-```
-
----
-
-## 🎓 Education
-
-### Software Engineering
-
-**UNINTER — Centro Universitário Internacional**
-
-Expected graduation:
-
-`June 2031`
-
----
-
-## 🌎 Languages
-
-| Language | Level |
-|---|---|
-| Portuguese | Native |
-| English | Intermediate |
-| Spanish | Basic |
-
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=vsalescode&label=PROFILE+VIEWS&color=6DB33F&style=flat-square" />
-
-<img src="https://img.shields.io/github/followers/vsalescode?label=Followers&style=flat-square&logo=github" />
-
-</div>
-
----
-
-<div align="center">
-
-### Code → Break → Debug → Learn → Repeat
-
-<sub>Software Developer · Software Engineering Student</sub>
-
-<br/><br/>
-
-<a href="mailto:vsalescode@gmail.com">
-  <img src="https://img.shields.io/badge/Let's_talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://linkedin.com/in/vsalescode">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
+**Languages:** Portuguese (native), English (intermediate), Spanish (basic)
