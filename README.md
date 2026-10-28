@@ -12,16 +12,6 @@ Brasil · Disponível para vagas de backend (júnior / estágio), remoto ou híb
 
 </div>
 
-## Resultados
-
-| Onde | O que construí | Resultado |
-| --- | --- | --- |
-| **MAXI** | Pipeline em Java que ingere, normaliza e valida CSV no PostgreSQL | Cerca de 2 milhões de registros carregados, com consultas otimizadas por índices e cache |
-| **MAXI** | Radar Comercial: busca de eventos e clientes (SerpAPI, cron), análise por IA e scoring de leads | O comercial passou a prospectar clientes pela ferramenta, a pedido dele |
-| **Fullcine** | Adaptação do Hub da MAXI para outra empresa, com autenticação, permissões e dados separados | Mais de 8 módulos portados, em uso no dia a dia |
-| **VTEX DAY** | Painel 3D de montagem com sincronização em tempo real | Mais de 200 estandes acompanhados ao vivo, com ajustes publicados durante o evento |
-| **Nilo** | Plataforma desktop de voz e comunidades, projeto próprio | Beta fechado com cerca de 10 usuários e 7 versões lançadas |
-
 ## Sobre mim
 
 Desenvolvo backends: APIs REST, autenticação, pipelines de dados e funcionalidades em tempo real. Minha stack principal é Java com Spring Boot, e também trabalho com TypeScript e Node.js.
@@ -108,21 +98,22 @@ Vale ver também: [microsserviços com Spring Boot e OpenFeign](https://github.c
 ### Hiwis · Estagiário de Desenvolvimento de Software e IA
 *mar/2026 – ago/2026 · remoto · projetos sob demanda para clientes*
 
-**MAXI** · hub interno de gestão comercial e financeira, cerca de 20 usuários
-- API em Java que ingere CSV no PostgreSQL, com tratamento, normalização e validação de cerca de 2 milhões de registros.
-- APIs REST em Node.js/Express com autenticação JWT, controle de acesso, filtros e paginação, e consultas SQL otimizadas com índices e cache.
-- Painéis de BI dentro do Hub, como a análise de equipamentos (utilização, faturamento, payback e depreciação), usada para decidir quais equipamentos estão em eventos, quais já se pagaram e quais precisam de manutenção.
-- Portal "Meus Eventos": o vendedor consulta seus eventos, custos e comissão, e o administrador define comissões e custos e ajusta valores importados de uma API externa.
-- Radar Comercial, a pedido do comercial: busca automática de eventos e clientes em potencial (SerpAPI e cron jobs), com análise por IA e scoring de leads. O comercial passou a prospectar clientes pela ferramenta.
-- Atendimento via WhatsApp e registro de ocorrências automatizados com n8n e IA.
+| Cliente | O que construí | Resultado |
+| --- | --- | --- |
+| **MAXI** | Pipeline em Java que ingere CSV no PostgreSQL, com tratamento, normalização e validação | Cerca de **2 milhões de registros** carregados e prontos para os módulos do Hub |
+| **MAXI** | APIs REST em Node.js/Express (JWT, controle de acesso, filtros e paginação) e consultas SQL otimizadas com índices e cache | Base de dados e consultas dos módulos do Hub |
+| **MAXI** | Portal "Meus Eventos": o vendedor vê seus eventos, custos e comissão; o administrador define comissões e custos e ajusta valores importados de uma API externa | Vendedores passaram a consultar custos e comissão direto no portal |
+| **MAXI** | Gestão de JOBs e informações financeiras: valores, relatórios comerciais, edição do campo Sobra com recálculo e exportação em CSV | Regras e relatórios da MAXI dentro do Hub |
+| **MAXI** | Painéis de BI no Hub: análise de equipamentos com utilização, faturamento, payback, depreciação e manutenção | Usados para decidir quais equipamentos estão em eventos, quais já se pagaram, quais precisam de manutenção e quais não voltaram dela |
+| **MAXI** | Radar Comercial: busca de eventos e clientes em potencial (SerpAPI e cron jobs), análise por IA, scoring de leads e quadro Kanban | O comercial passou a prospectar clientes pela ferramenta, a pedido dele |
+| **MAXI** | Automação com n8n e IA: atendimento via WhatsApp e registro de ocorrências centralizado no Hub | Ocorrências operacionais reunidas num só lugar |
+| **Fullcine** | Portei **todos os módulos do Hub da MAXI (mais de 8)**, reconectando-os às fontes de dados da Fullcine e refazendo o tratamento dos dados | Módulos em uso no dia a dia da empresa |
+| **Fullcine** | Login que identifica empresa e vendedor, com permissões e dados separados por empresa | MAXI e Fullcine no mesmo Hub, sem misturar dados |
+| **Fullcine** | Portal do vendedor (cadastro, listagem e exclusão de JOBs, relatórios) e regras financeiras próprias: BV, Sobra, Sublocação, Serviço de Produção, Comissão e taxa Real MAXI | Regras da Fullcine respeitadas nos cálculos e relatórios |
+| **VTEX DAY** | Painel 3D de montagem (React, TypeScript, Three.js): planta 2D em PNG virou planta interativa com progresso por frente de obra, status, atrasos, busca e filtros por setor, região e status | Mais de **200 estandes** acompanhados ao vivo |
+| **VTEX DAY** | Login por usuário, envio de fotos do estado dos estandes e sincronização em tempo real para 5+ usuários (Firebase/Firestore), com interface adaptada para mobile | Usado no evento, com ajustes publicados durante a operação |
 
-**Fullcine** · adaptação multiempresa do Hub
-- Portei todos os módulos do Hub da MAXI (mais de 8) para a Fullcine, reconectando-os às fontes de dados dela e refazendo o tratamento dos dados. Passaram a ser usados no dia a dia da empresa.
-- Separei autenticação, permissões e dados por empresa e implementei as regras financeiras da Fullcine.
-
-**VTEX** · painel de montagem do VTEX DAY 2026
-- Transformei a planta 2D em PNG do evento em um painel 3D interativo (React, TypeScript e Three.js) para acompanhar a montagem de mais de 200 estandes: progresso por frente de obra, status, atrasos e filtros.
-- Login por usuário, fotos do estado dos estandes e sincronização em tempo real para 5+ usuários com Firebase/Firestore. Usado no evento, com ajustes publicados durante a operação.
+Em todos os projetos: Git e GitHub Actions (CI/CD) e testes automatizados com Jest.
 
 > "Durante esse período, demonstrou comprometimento, boa postura profissional e abertura para receber feedbacks, apresentando evolução na qualidade de suas entregas à medida que desenvolvia novas competências."
 > Hélder Wege, fundador da Hiwis e meu supervisor direto ([recomendação no LinkedIn](https://linkedin.com/in/vsalescode))
