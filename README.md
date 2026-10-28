@@ -14,9 +14,9 @@ Brasil · Disponível para vagas de backend (júnior / estágio), remoto ou híb
 
 ## Em números
 
-| 2 milhões | 8+ | 200+ | ~10 |
-| :---: | :---: | :---: | :---: |
-| de registros ingeridos e validados no PostgreSQL | módulos de um hub portados entre duas empresas | estandes acompanhados em tempo real num evento | usuários no beta fechado do Nilo |
+<div align="center">
+<img src="assets/numeros.svg" alt="2 milhões de registros ingeridos e validados no PostgreSQL; 8+ módulos de um hub portados entre empresas; 200+ estandes monitorados em tempo real; cerca de 10 usuários no beta fechado do Nilo" width="100%" />
+</div>
 
 ## Sobre mim
 
