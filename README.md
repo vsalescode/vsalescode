@@ -12,14 +12,15 @@ Brasil · Disponível para vagas de backend (júnior / estágio), remoto ou híb
 
 </div>
 
-## Em números
+## Resultados
 
-<div align="center">
-<img src="https://img.shields.io/badge/REGISTROS_INGERIDOS-2_MILH%C3%95ES-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Registros Ingeridos: 2 MILHÕES" />
-<img src="https://img.shields.io/badge/M%C3%93DULOS_PORTADOS-8%2B-3FB950?style=for-the-badge&labelColor=0D1117" alt="Módulos Portados: 8+" />
-<img src="https://img.shields.io/badge/ESTANDES_AO_VIVO-200%2B-F778BA?style=for-the-badge&labelColor=0D1117" alt="Estandes Ao Vivo: 200+" />
-<img src="https://img.shields.io/badge/USU%C3%81RIOS_NO_BETA-~10-D29922?style=for-the-badge&labelColor=0D1117" alt="Usuários No Beta: ~10" />
-</div>
+| Onde | O que construí | Resultado |
+| --- | --- | --- |
+| **MAXI** | Pipeline em Java que ingere, normaliza e valida CSV no PostgreSQL | Cerca de 2 milhões de registros carregados, com consultas otimizadas por índices e cache |
+| **MAXI** | Radar Comercial: busca de eventos e clientes (SerpAPI, cron), análise por IA e scoring de leads | O comercial passou a prospectar clientes pela ferramenta, a pedido dele |
+| **Fullcine** | Adaptação do Hub da MAXI para outra empresa, com autenticação, permissões e dados separados | Mais de 8 módulos portados, em uso no dia a dia |
+| **VTEX DAY** | Painel 3D de montagem com sincronização em tempo real | Mais de 200 estandes acompanhados ao vivo, com ajustes publicados durante o evento |
+| **Nilo** | Plataforma desktop de voz e comunidades, projeto próprio | Beta fechado com cerca de 10 usuários e 7 versões lançadas |
 
 ## Sobre mim
 
