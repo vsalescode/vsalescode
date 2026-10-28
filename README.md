@@ -15,7 +15,10 @@ Brasil · Disponível para vagas de backend (júnior / estágio), remoto ou híb
 ## Em números
 
 <div align="center">
-<img src="assets/numeros.svg" alt="2 milhões de registros ingeridos e validados no PostgreSQL; 8+ módulos de um hub portados entre empresas; 200+ estandes monitorados em tempo real; cerca de 10 usuários no beta fechado do Nilo" width="100%" />
+<img src="https://img.shields.io/badge/REGISTROS_INGERIDOS-2_MILH%C3%95ES-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Registros Ingeridos: 2 MILHÕES" />
+<img src="https://img.shields.io/badge/M%C3%93DULOS_PORTADOS-8%2B-3FB950?style=for-the-badge&labelColor=0D1117" alt="Módulos Portados: 8+" />
+<img src="https://img.shields.io/badge/ESTANDES_AO_VIVO-200%2B-F778BA?style=for-the-badge&labelColor=0D1117" alt="Estandes Ao Vivo: 200+" />
+<img src="https://img.shields.io/badge/USU%C3%81RIOS_NO_BETA-~10-D29922?style=for-the-badge&labelColor=0D1117" alt="Usuários No Beta: ~10" />
 </div>
 
 ## Sobre mim
