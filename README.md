@@ -2,46 +2,46 @@
 
 # João Victor Sales
 
-**Backend Developer · Java & Spring Boot · Node.js · Real-time systems**
+**Desenvolvedor Backend · Java & Spring Boot · Node.js · Sistemas em tempo real**
 
-Brazil · Open to backend roles (junior / internship), remote or hybrid
+Brasil · Disponível para vagas de backend (júnior / estágio), remoto ou híbrido
 
 <a href="https://linkedin.com/in/vsalescode"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://portfolio-vsalescode.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="mailto:vsalescode@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://portfolio-vsalescode.vercel.app"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="mailto:vsalescode@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
 
-## About
+## Sobre mim
 
-I build backend systems: REST APIs, authentication, data pipelines and real-time features. My main stack is Java with Spring Boot, and I also work with TypeScript and Node.js.
+Desenvolvo sistemas backend: APIs REST, autenticação, pipelines de dados e funcionalidades em tempo real. Minha stack principal é Java com Spring Boot, e também trabalho com TypeScript e Node.js.
 
-During my internship I built a data pipeline that ingests, normalizes and validates about 2 million records into PostgreSQL, and tuned the queries behind it with indexes and caching. Outside work, I keep shipping complete projects end to end, from database design to tests and documentation.
+No estágio, construí um pipeline que ingere, normaliza e valida cerca de 2 milhões de registros no PostgreSQL, e otimizei as consultas dele com índices e cache. Fora do trabalho, sigo entregando projetos completos, da modelagem do banco aos testes e à documentação.
 
-Software Engineering student at UNINTER.
+Estudante de Engenharia de Software na UNINTER.
 
-## Projects
+## Projetos
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### [Mini ERP](https://github.com/vsalescode/mini-erp)
-Stock and sales API, built module by module (in progress).
+API de controle de estoque e vendas, construída módulo a módulo (em andamento).
 
 `Java 21` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `Docker`
 
-Modular hexagonal architecture documented in an ADR, versioned migrations with Flyway and integration tests running against a real PostgreSQL through Testcontainers.
+Arquitetura hexagonal modular documentada em ADR, migrações versionadas com Flyway e testes de integração rodando contra um PostgreSQL real via Testcontainers.
 
 </td>
 <td width="50%" valign="top">
 
 ### [AppyFlow](https://github.com/vsalescode/appyflow)
-Self-hosted assistant that finds job openings, scores how well they match your profile and generates tailored résumés in LaTeX/PDF.
+Assistente self-hosted que encontra vagas, avalia a compatibilidade com o seu perfil e gera currículos personalizados em LaTeX/PDF.
 
 `TypeScript` `Next.js` `Prisma` `PostgreSQL` `Zod` `Vitest` `Docker`
 
-Résumé parsing with LLM structured output, where every extracted fact keeps a quote from the original as evidence. Argon2 auth and a search worker with pluggable providers.
+Leitura do currículo com IA e saída estruturada, em que cada informação extraída guarda o trecho original como evidência. Autenticação com Argon2 e worker de busca com provedores plugáveis.
 
 </td>
 </tr>
@@ -49,21 +49,21 @@ Résumé parsing with LLM structured output, where every extracted fact keeps a 
 <td width="50%" valign="top">
 
 ### [Nilo](https://nilovoice.vercel.app)
-Desktop app for voice chat and communities, with screen sharing.
+App desktop de comunicação por voz e comunidades, com compartilhamento de tela.
 
 `TypeScript` `React` `Electron` `Fastify` `Socket.IO` `WebRTC` `PostgreSQL` `Prisma`
 
-Real-time voice and screen sharing over WebRTC, presence and channels over Socket.IO, JWT auth and a Windows installer.
+Voz e compartilhamento de tela em tempo real com WebRTC, presença e canais com Socket.IO, autenticação JWT e instalador para Windows.
 
 </td>
 <td width="50%" valign="top">
 
 ### [API Vendas BI](https://github.com/vsalescode/api-vendas-bi)
-Sales API with a monthly revenue dashboard.
+API de vendas com painel de faturamento mensal.
 
 `Java 21` `Spring Boot` `PostgreSQL` `MapStruct` `Bean Validation`
 
-Paginated and filtered endpoints, error handling and a dashboard that reads from a PostgreSQL view, so the aggregation lives in the database.
+Endpoints com paginação, filtros e tratamento de erros, e um painel que lê de uma view do PostgreSQL, deixando a agregação no banco.
 
 </td>
 </tr>
@@ -71,46 +71,46 @@ Paginated and filtered endpoints, error handling and a dashboard that reads from
 <td width="50%" valign="top">
 
 ### [netblame](https://github.com/vsalescode/netblame)
-Finds where your connection is failing: your PC, the router, the ISP or the route to the server.
+Descobre onde a sua conexão está falhando: no PC, no roteador, no provedor ou na rota até o servidor.
 
-`Python` `Windows` `Networking`
+`Python` `Windows` `Redes`
 
-Probes gateway, DNS, TCP and each hop of the route in parallel, then blames the failing segment by elimination. Generates a single bilingual HTML report, with no admin rights and no external dependencies.
+Testa gateway, DNS, TCP e cada salto da rota em paralelo e aponta o trecho com defeito por eliminação. Gera um relatório HTML bilíngue, sem precisar de administrador nem de dependências externas.
 
 </td>
 <td width="50%" valign="top">
 
 ### [Iris](https://github.com/vsalescode/iris)
-Voice assistant for Windows that handles files and Gmail and remembers past conversations.
+Assistente de voz para Windows que cuida de arquivos e do Gmail e lembra de conversas anteriores.
 
 `Python` `FastAPI` `WebSocket` `Gemini Live` `SQLite` `Three.js`
 
-Real-time voice over WebSocket, function calling behind a permission system with confirmation for irreversible actions, long-term memory in SQLite and a WebGL interface.
+Voz em tempo real via WebSocket, chamadas de ferramentas protegidas por um sistema de permissões (com confirmação para ações irreversíveis), memória de longo prazo em SQLite e interface em WebGL.
 
 </td>
 </tr>
 </table>
 
-Also worth a look: [microservices with Spring Boot and OpenFeign](https://github.com/vsalescode/bff-agendador-tarefas) (BFF + user, task and notification services, PostgreSQL and MongoDB).
+Vale ver também: [microsserviços com Spring Boot e OpenFeign](https://github.com/vsalescode/bff-agendador-tarefas) (BFF + serviços de usuário, tarefas e notificações, com PostgreSQL e MongoDB).
 
-## Experience
+## Experiência
 
-**Hiwis** · Software Development & AI Intern · Mar 2026 – Aug 2026
-- Built REST APIs in Node.js and Java with authentication, JWT access control, filters and pagination.
-- Built a data pipeline (ingestion, transformation, normalization, validation) that loads ~2 million records into PostgreSQL, and optimized its SQL with indexes and in-memory caching.
-- Automated business flows with n8n, webhooks and external APIs.
-- Built React + TypeScript screens and wrote automated tests with Jest.
+**Hiwis** · Estagiário de Desenvolvimento de Software e IA · mar/2026 – ago/2026
+- Desenvolvi APIs REST em Node.js e Java, com autenticação, controle de acesso por JWT, filtros e paginação.
+- Construí um pipeline de dados (ingestão, transformação, normalização e validação) que carrega cerca de 2 milhões de registros no PostgreSQL, e otimizei o SQL com índices e cache em memória.
+- Automatizei fluxos de negócio com n8n, webhooks e APIs externas.
+- Desenvolvi telas em React + TypeScript e escrevi testes automatizados com Jest.
 
-**Freelance developer** · Jun 2020 – Aug 2025
-- Websites, landing pages, Discord bots, Lua scripts and API integrations for clients, plus bug fixing, refactoring and performance work.
+**Desenvolvedor freelancer** · jun/2020 – ago/2025
+- Sites, landing pages, bots para Discord, scripts em Lua e integrações com APIs para clientes, além de correção de bugs, refatoração e melhorias de desempenho.
 
 ## Stack
 
 <img src="https://skillicons.dev/icons?i=java,spring,ts,nodejs,react,nextjs,python,postgres,mysql,mongodb,prisma,docker,git,postman&theme=dark" />
 
-**Backend:** Java, Spring Boot, Node.js, Fastify, Next.js, REST, JWT, OpenFeign
-**Data:** PostgreSQL, MySQL, MongoDB, Prisma, JPA, Flyway
-**Real-time:** WebSocket, Socket.IO, WebRTC
-**Testing & tooling:** JUnit 5, Mockito, Testcontainers, Jest, Vitest, Docker, GitHub Actions, n8n
+- **Backend:** Java, Spring Boot, Node.js, Fastify, Next.js, REST, JWT, OpenFeign
+- **Dados:** PostgreSQL, MySQL, MongoDB, Prisma, JPA, Flyway
+- **Tempo real:** WebSocket, Socket.IO, WebRTC
+- **Testes e ferramentas:** JUnit 5, Mockito, Testcontainers, Jest, Vitest, Docker, GitHub Actions, n8n
 
-**Languages:** Portuguese (native), English (intermediate), Spanish (basic)
+**Idiomas:** português (nativo), inglês (intermediário), espanhol (básico)
